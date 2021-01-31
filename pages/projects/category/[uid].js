@@ -56,6 +56,7 @@ export async function getStaticProps({ preview = null, previewData = {}, params 
   }
 }
 
+
 export async function getStaticPaths() {
   const client = Client()
   const allProjectCategories = await client.query(
